@@ -17,3 +17,6 @@ void CheckSymbols(string rows)
 string line1 = ReadInt("Введите первую строку");
 string line2 = ReadInt("Введите вторую строку");
 string line3 = ReadInt("Введите третью строку");
+CheckSymbols(line1);
+CheckSymbols(line2);
+CheckSymbols(line3);
