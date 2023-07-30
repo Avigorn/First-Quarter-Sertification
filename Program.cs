@@ -5,3 +5,11 @@ string ReadInt(string message)
     string inputedString = Console.ReadLine();
     return inputedString;
 }
+
+void CheckSymbols(string rows)
+{
+    if (rows.Length <= 3)
+    {
+        System.Console.WriteLine(rows);
+    }
+}
