@@ -13,3 +13,7 @@ void CheckSymbols(string rows)
         System.Console.WriteLine(rows);
     }
 }
+
+string line1 = ReadInt("Введите первую строку");
+string line2 = ReadInt("Введите вторую строку");
+string line3 = ReadInt("Введите третью строку");
